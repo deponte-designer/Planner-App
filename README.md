@@ -19,13 +19,17 @@ This project is a Work Day Scheduler that helps employees manage their busy sche
 
 - Display the current day at the top of the calendar.
 - Present time blocks for standard business hours.
-- Color-code each time block based on past, present, and future.
+- Colour-code each time block based on past, present, and future.
 - Allow users to enter events when clicking a time block.
 - Save events in local storage when the save button is clicked.
 - Persist events between refreshes of a page.
 
+
 ## Screenshot
 
+![Workday Scheduler Screenshot](./assets/images/Planner-App_index.png)
+
+*The above image illustrates an example of the colour-code each time block.*
 
 
 ## Deployment
