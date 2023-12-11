@@ -1,4 +1,4 @@
-# Third-Party APIs: Work Day Scheduler
+# Third-Party APIs: Workday Scheduler
 
 
 ## Description
