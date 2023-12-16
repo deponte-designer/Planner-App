@@ -41,6 +41,7 @@ header {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  
 }
 
 .past {
@@ -67,6 +68,7 @@ header {
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 25px;
   transition: all 0.3s ease-in-out;
+  color: #003e4d;
 }
