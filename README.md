@@ -24,6 +24,9 @@ This project is a Work Day Scheduler that helps employees manage their busy sche
 - Save events in local storage when the save button is clicked.
 - Persist events between refreshes of a page.
 
+## Screenshot
+
+
 
 ## Deployment
 
