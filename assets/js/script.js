@@ -12,3 +12,20 @@ $('#currentDay').text(today.format('dddd, MMMM Do'));
 const nowHour = dayjs().format('hA'); // HA = 0-23 AM/PM  // hA = 0-12 AM/PM > 9AM, 10AM, ... 12PM, 1PM, ...
 console.log(nowHour);
 
+// Loop through each time block
+$('.time-block').each(function () {
+    const elementHour = $(this).attr('data-hour');
+
+    // Add color based on past, present, future
+    if (dayjs(elementHour, 'hA') < dayjs(nowHour, 'hA')) {
+        $(this).find('textarea').addClass('past');
+    } else if (elementHour === nowHour) {
+        $(this).find('textarea').addClass('present');
+    } else {
+        $(this).find('textarea').addClass('future');
+    }
+
+
+
+    
+});
