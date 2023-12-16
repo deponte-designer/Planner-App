@@ -39,7 +39,7 @@ This project is deployed and accessible at the following URLs:
 - [Live Application](https://deponte-designer.github.io/Planner-App): Visit this link to plan your workday.
 - [GitHub Repository](https://github.com/deponte-designer/Planner-App): Visit the repository for project details, including a comprehensive README.
 
-> Dive into the code and explore the results of this Coding Quiz.
+> Dive into the code and explore the results of this Workday Scheduler.
 
 
 ## License
