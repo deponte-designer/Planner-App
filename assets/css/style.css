@@ -10,6 +10,7 @@ textarea {
   resize: none;
   color: #000000;
   border-left: 1px solid black;
+  border-right: 1px solid black;
   padding: 10px;
 }
 
@@ -62,7 +63,8 @@ header {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  /* border-left: 1px solid black; */
+  border-style: none;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
@@ -72,5 +74,16 @@ header {
 .saveBtn i:hover {
   font-size: 25px;
   transition: all 0.3s ease-in-out;
-  color: #003e4d;
+  color: #00718d;
+}
+
+#currentDay {
+  background-color: #ff6961;
+    border-radius: 30px;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    /* font-size: 15pt; */
 }
