@@ -78,7 +78,7 @@ header {
 }
 
 #currentDay {
-  background-color: #00718d;
+  background: linear-gradient(15deg, #06aed5 0%, #00718d 100%);
     border-radius: 30px;
     margin: 0 auto;
     width: 50%;
