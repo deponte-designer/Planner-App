@@ -25,13 +25,17 @@ $('.time-block').each(function () {
         $(this).find('textarea').addClass('future');
     }
 
-// Add event listener for save button
+    // Add event listener for save button
     $(this).find('.saveBtn').on('click', function () {
         const eventText = $(this).siblings('textarea').val();
         // Save eventText to local storage using the current time block's data-hour as a key
         localStorage.setItem(`event-${elementHour}`, eventText);
     });
 
+    // Retrieve and display saved events from local storage
+    const savedEvent = localStorage.getItem(`event-${elementHour}`);
+    if (savedEvent) {
+        $(this).find('textarea').val(savedEvent);
+    }
 
-    
 });
