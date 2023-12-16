@@ -27,7 +27,17 @@ $('.time-block').each(function () {
 
     // Add event listener for save button
     $(this).find('.saveBtn').on('click', function () {
-        const eventText = $(this).siblings('textarea').val();
+        // Find the textarea element that is a sibling of the clicked save button
+        const textarea = $(this).siblings('textarea');
+        const eventText = textarea.val();
+
+        // Check if the textarea is empty
+        if (eventText.trim() === '') {
+            // If the textarea is empty, show an alert to write the event
+            alert('Please write an event before saving.');
+            return; 
+        }
+
         // Save eventText to local storage using the current time block's data-hour as a key
         localStorage.setItem(`event-${elementHour}`, eventText);
     });
